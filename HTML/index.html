@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prathanya | Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(to right, #eef2ff, #fdf2f8);
+      color: #333;
+    }
+
+    /* HEADER */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; /* aligns content to left */
+      gap: 20px;
+      background: linear-gradient(to right, #6366f1, #8b5cf6);
+      color: white;
+      padding: 40px 60px; /* padding on top/bottom and sides */
+      text-align: left;   /* text aligned left */
+    }
+
+    header h1, header p {
+      margin: 0;
+    }
+
+    .profile-pic {
+      width: 180px;   /* increased size */
+      height: 180px;  /* increased size */
+      border-radius: 50%; /* round image */
+      object-fit: cover;
+      border: 3px solid white;
+    }
+
+    .header-text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #e0e7ff;
+    }
+
+    /* SECTIONS */
+    section {
+      background: white;
+      margin: 25px auto;
+      padding: 25px;
+      max-width: 900px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      border-left: 6px solid #6366f1;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #4f46e5;
+      border-bottom: 2px solid #e0e7ff;
+      padding-bottom: 6px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 25px;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: linear-gradient(to right, #6366f1, #8b5cf6);
+      color: white;
+      text-align: center;
+      padding: 14px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    /* Responsive for smaller screens */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+      }
+      .header-text {
+        align-items: center;
+      }
+      .profile-pic {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <img src="pic.png" alt="Prathanya T" class="profile-pic">
+    <div class="header-text">
+      <h1>Prathanya T</h1>
+      <p>Information Technology</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Profile</h2>
+    <p>
+      Currently pursuing Information Technology in Bannari Amman Institute of Technology. I am motivated to enhance my technical skills, collaborate effectively in teams, and contribute to innovative solutions in a professional environment.
+    </p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p><strong>Bachelor of Technology (IT)</strong></p>
+    <p>Bannari Amman Institute of Technology (2024 – 2028)</p>
+    <p>CGPA: 7.7 (Current)</p>
+
+    <br>
+
+    <p><strong>Higher Secondary Education</strong></p>
+    <p>Veveaham Hr Sec School</p>
+    <p>10th: 79% | 12th: 88%</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>C Programming</li>
+      <li>Python</li>
+      <li>Problem Solving</li>
+      <li>Language Models (Basics)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Achievements & Certifications</h2>
+    <ul>
+      <li>Oracle Global Certification – Cloud Infrastructure</li>
+      <li>Google Cloud – Introduction to Large Scale Systems</li>
+      <li>Developing Communication Skills</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Extra Curricular Activities</h2>
+    <ul>
+      <li>Leadership</li>
+      <li>Motivated Personality</li>
+      <li>Time Management</li>
+      <li>Public Relations</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Areas of Interest</h2>
+    <ul>
+      <li>Full Stack Development</li>
+      <li>Problem Solving</li>
+      <li>Special Lab Activities</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Prathanya T | Portfolio</p>
+  </footer>
+
+</body>
+</html>
